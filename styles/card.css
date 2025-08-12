@@ -1,0 +1,120 @@
+body{
+
+    max-width: 1080px;
+    
+    margin: 0px 400px;
+    
+}
+
+
+.card-section{
+
+    text-align: center;
+}
+
+
+.card-section h2{
+
+    font-size: 2em;
+    font-weight: 700;
+}
+
+
+
+.card-container{
+
+    display: flex;
+  
+    gap: 50px;
+    flex-wrap: wrap;
+       
+}
+
+
+.card{
+
+    width: 300px;
+    border: 3px solid darkblue;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: mistyrose;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.424);
+    text-align: left;
+    /* gap: 50px; */
+
+}
+
+
+
+.card img{
+
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.card h3{
+
+    font-size: 1.25em;
+    font-weight: 700;
+}
+
+
+
+.card button{
+
+    background-color: rgba(0, 255, 255, 0.614);
+    padding: 7px;
+    border-radius: 10px;
+    border: 3px solid rgb(23, 88, 200);
+    font-size: 1em;
+    font-weight: 700;
+    box-shadow: 5px 5px 10px rgb(41, 197, 197);
+}
+
+
+
+.card button:hover{
+
+    background-color: rgb(30, 205, 77);
+    box-shadow: 5px 5px 5px  rgb(30, 205, 77);
+}
+
+
+
+.btn{
+
+
+    font-size: 1.5em;
+    font-weight: 500;
+    color: black;
+    border: 1px solid black;
+    border: 2px solid black;
+    padding: 3px;
+
+    /* background-color: rgb(14, 14, 188); */
+    /* display: inline-block;
+
+    border: 2px solid rgba(11, 6, 135, 0.847);
+    padding: 5px;
+    background-color: rgba(235, 57, 211, 0.819);
+    color: bisque;
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.5em;
+    border-radius: 10px;
+     */
+} 
+
+
+nav li a{
+
+    text-decoration: none;
+}
+
+
+.btn:hover{
+
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.329);
+}
+
